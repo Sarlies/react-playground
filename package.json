@@ -1,0 +1,25 @@
+{
+  "name": "sharls-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html -d --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-live-clock": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.5"
+  },
+  "description": ""
+}

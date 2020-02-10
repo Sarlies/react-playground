@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.left,
+.right {
+  width: 50%;
+  display: flex;
+  height: 100vh;
+}
+
+.scores {
+  flex: 1 1 auto;
+  background-color: #182334;
+  color: #fff;
+}
+
+.latest-scores {
+  display: flex;
+}
+
+.latest-scores-score {
+  font-size: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.latest-scores-score--w {
+  background-color: green;
+}
+
+.latest-scores-score--l {
+  background-color: red;
+}
+
+.latest-scores-score--d {
+  background-color: blue;
+}
+
