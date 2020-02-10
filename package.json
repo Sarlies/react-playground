@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html -d --open",
+    "dev": "parcel src/index.html -d public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,8 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-live-clock": "^4.0.3"
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "@types/node": "^13.7.0",
