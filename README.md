@@ -13,6 +13,6 @@
 
 ### List of components
 
-- GreetingScreen (planning split out into smaller components)
+- GreetingScreen (planning to split out into smaller components)
 - Scores
 - Switch
