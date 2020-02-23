@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
-import GreetingScreen from './GreetingScreen';
-import Switch from './Switch';
-import Scores from './Scores';
-import './app.css';
+import React, { useState } from 'react'
+import Clock from './components/Clock'
+import Greeting from './components/Greeting'
+import Focus from './components/Focus'
+import Switch from './components/Switch'
+import Scores from './components/Scores'
+import './app.css'
+import Quote from './components/Quote'
 
 export default function App() {
   // 1. Firstly, set the intial scores
@@ -23,9 +26,14 @@ export default function App() {
     setLatestScores([olderScore, oldScore, latestScore])
   }
 
+  fetch('https://quote-garden.herokuapp.com/quotes/random')
+
   return (
     <div className="container">
-      <GreetingScreen firstName={'Sharlyne'}/>
+      <div><Clock/></div>
+      <div><Greeting firstName={'Raphael'}/></div>
+      <div><Focus/></div>
+      <div><Quote quote={{ text:'A quote goes here', author:'Me'}}/></div>
       {/* <div className="left">
         <button onClick={() => updateScores('W')}>W</button>
         <button onClick={() => updateScores('L')}>L</button>
