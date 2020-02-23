@@ -13,6 +13,9 @@
 
 ### List of components
 
-- 👋GreetingScreen (planning to split out into smaller components)
+- ⏰Clock
+- 🎯Focus
+- 👋Greeting
+- 💬Quote
 - 🏁Scores
 - 💡Switch
