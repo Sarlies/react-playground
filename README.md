@@ -13,6 +13,7 @@
 
 ### List of components
 
+- 🙋🏻‍♀️ Avatar
 - ⏰Clock
 - 🎯Focus
 - 👋Greeting
