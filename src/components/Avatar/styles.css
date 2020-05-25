@@ -2,14 +2,6 @@ img {
   max-width: 100%;
 }
 
-.avatar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-transform: uppercase;
-  }
-
   .avatar-size--small {
     width: 24px;
     height: 24px;
@@ -36,6 +28,11 @@ img {
   }
 
   .avatar-initials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
     background-color: violet;
   }
 
