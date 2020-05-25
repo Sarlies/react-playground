@@ -4,6 +4,7 @@ import Greeting from './components/Greeting'
 import Focus from './components/Focus'
 import Switch from './components/Switch'
 import Scores from './components/Scores'
+import Avatar from './components/Avatar/Avatar'
 import './app.css'
 import Quote from './components/Quote'
 
@@ -31,9 +32,10 @@ export default function App() {
   return (
     <div className="container">
       <div><Clock/></div>
-      <div><Greeting firstName={'Raphael'}/></div>
+      <div><Greeting firstName={'Sharlyne'}/></div>
       <div><Focus/></div>
       <div><Quote quote={{ text:'A quote goes here', author:'Me'}}/></div>
+      <Avatar name='Sharlyne' image='https://avatars3.githubusercontent.com/u/22032643?s=460&u=ad7ed1c7d90b46ea9a45d187b11331b19722d277&v=4/'/>
       {/* <div className="left">
         <button onClick={() => updateScores('W')}>W</button>
         <button onClick={() => updateScores('L')}>L</button>
