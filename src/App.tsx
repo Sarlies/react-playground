@@ -35,7 +35,9 @@ export default function App() {
       <div><Greeting firstName={'Sharlyne'}/></div>
       <div><Focus/></div>
       <div><Quote quote={{ text:'A quote goes here', author:'Me'}}/></div>
-      <Avatar name='Sharlyne' image='https://avatars3.githubusercontent.com/u/22032643?s=460&u=ad7ed1c7d90b46ea9a45d187b11331b19722d277&v=4/'/>
+      <Avatar size='large' name='Sharlyne' image='https://avatars3.githubusercontent.com/u/22032643?s=460&u=ad7ed1c7d90b46ea9a45d187b11331b19722d277&v=4/'/>
+      <Avatar size='small' type='rounded' name='Sharlyne' image='https://avatars3.githubusercontent.com/u/22032643?s=460&u=ad7ed1c7d90b46ea9a45d187b11331b19722d277&v=4/'/>
+      <Avatar size='large' name='raphael' loading/>
       {/* <div className="left">
         <button onClick={() => updateScores('W')}>W</button>
         <button onClick={() => updateScores('L')}>L</button>
